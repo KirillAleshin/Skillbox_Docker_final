@@ -1,0 +1,79 @@
+{"build_time":"20231130.095648","level":"info","msg":"Starting","time":"2023-12-02T15:58:15Z","version":"v16.6.1"}
+{"address":"localhost:9229","level":"info","msg":"Running metrics server","network":"tcp","time":"2023-12-02T15:58:15Z"}
+{"level":"info","msg":"Using gomodule/redigo","time":"2023-12-02T15:58:15Z"}
+{"level":"info","msg":"keywatcher: starting process loop","time":"2023-12-02T15:58:15Z"}
+{"address":"/var/opt/gitlab/redis/redis.socket","level":"info","msg":"redis: dialing","network":"unix","time":"2023-12-02T15:58:15Z"}
+{"correlation_id":"","duration_ms":0,"error":"badgateway: failed to receive response: dial unix /var/opt/gitlab/gitlab-rails/sockets/gitlab.socket: connect: connection refused","level":"error","method":"GET","msg":"","time":"2023-12-02T15:58:15Z","uri":""}
+{"address":"/var/opt/gitlab/gitlab-workhorse/sockets/socket","level":"info","msg":"Running upstream server","network":"unix","time":"2023-12-02T15:58:15Z"}
+{"correlation_id":"","duration_ms":0,"error":"badgateway: failed to receive response: dial unix /var/opt/gitlab/gitlab-rails/sockets/gitlab.socket: connect: connection refused","level":"error","method":"GET","msg":"","time":"2023-12-02T15:58:25Z","uri":""}
+{"correlation_id":"","duration_ms":0,"error":"badgateway: failed to receive response: dial unix /var/opt/gitlab/gitlab-rails/sockets/gitlab.socket: connect: connection refused","level":"error","method":"GET","msg":"","time":"2023-12-02T15:58:35Z","uri":""}
+{"correlation_id":"","duration_ms":0,"error":"badgateway: failed to receive response: dial unix /var/opt/gitlab/gitlab-rails/sockets/gitlab.socket: connect: connection refused","level":"error","method":"GET","msg":"","time":"2023-12-02T15:58:45Z","uri":""}
+{"content_type":"text/html; charset=utf-8","correlation_id":"01HGNM2CZ4GJZYKQS5V8AE1NNF","duration_ms":447,"host":"localhost","level":"info","method":"GET","msg":"access","proto":"HTTP/1.1","referrer":"","remote_addr":"127.0.0.1:0","remote_ip":"127.0.0.1","route":"","status":200,"system":"http","time":"2023-12-02T15:59:03Z","ttfb_ms":446,"uri":"/help","user_agent":"curl/8.4.0-DEV","written_bytes":31395}
+{"error":"keywatcher: pubsub receive: EOF","level":"error","msg":"","time":"2023-12-02T15:59:17Z"}
+{"address":"/var/opt/gitlab/redis/redis.socket","level":"info","msg":"redis: dialing","network":"unix","time":"2023-12-02T15:59:17Z"}
+{"level":"info","msg":"shutdown initiated","shutdown_timeout_s":0,"signal":"terminated","time":"2023-12-02T15:59:27Z"}
+{"level":"info","msg":"keywatcher: shutting down","time":"2023-12-02T15:59:27Z"}
+{"error":null,"level":"fatal","msg":"shutting down","time":"2023-12-02T15:59:27Z"}
+{"build_time":"20231130.095648","level":"info","msg":"Starting","time":"2023-12-02T15:59:27Z","version":"v16.6.1"}
+{"address":"localhost:9229","level":"info","msg":"Running metrics server","network":"tcp","time":"2023-12-02T15:59:27Z"}
+{"level":"info","msg":"Using gomodule/redigo","time":"2023-12-02T15:59:27Z"}
+{"level":"info","msg":"keywatcher: starting process loop","time":"2023-12-02T15:59:27Z"}
+{"address":"/var/opt/gitlab/redis/redis.socket","level":"info","msg":"redis: dialing","network":"unix","time":"2023-12-02T15:59:27Z"}
+{"address":"/var/opt/gitlab/gitlab-workhorse/sockets/socket","level":"info","msg":"Running upstream server","network":"unix","time":"2023-12-02T15:59:27Z"}
+{"content_type":"text/html; charset=utf-8","correlation_id":"01HGNM484KSBMAGPR2AHR4J60E","duration_ms":477,"host":"localhost","level":"info","method":"GET","msg":"access","proto":"HTTP/1.1","referrer":"","remote_addr":"127.0.0.1:0","remote_ip":"127.0.0.1","route":"","status":200,"system":"http","time":"2023-12-02T16:00:03Z","ttfb_ms":477,"uri":"/help","user_agent":"curl/8.4.0-DEV","written_bytes":31395}
+{"error":"keywatcher: pubsub receive: EOF","level":"error","msg":"","time":"2023-12-02T16:00:29Z"}
+{"address":"/var/opt/gitlab/redis/redis.socket","level":"info","msg":"redis: dialing","network":"unix","time":"2023-12-02T16:00:29Z"}
+{"content_type":"text/html; charset=utf-8","correlation_id":"01HGNM639S333AJX69DJGP6C4K","duration_ms":173,"host":"localhost","level":"info","method":"GET","msg":"access","proto":"HTTP/1.1","referrer":"","remote_addr":"127.0.0.1:0","remote_ip":"127.0.0.1","route":"","status":200,"system":"http","time":"2023-12-02T16:01:03Z","ttfb_ms":173,"uri":"/help","user_agent":"curl/8.4.0-DEV","written_bytes":31395}
+{"error":"keywatcher: pubsub receive: EOF","level":"error","msg":"","time":"2023-12-02T16:01:31Z"}
+{"address":"/var/opt/gitlab/redis/redis.socket","level":"info","msg":"redis: dialing","network":"unix","time":"2023-12-02T16:01:31Z"}
+{"content_type":"text/html; charset=utf-8","correlation_id":"01HGNM7Y5XW2Y1ZZR22T7FY90R","duration_ms":140,"host":"localhost","level":"info","method":"GET","msg":"access","proto":"HTTP/1.1","referrer":"","remote_addr":"127.0.0.1:0","remote_ip":"127.0.0.1","route":"","status":200,"system":"http","time":"2023-12-02T16:02:04Z","ttfb_ms":139,"uri":"/help","user_agent":"curl/8.4.0-DEV","written_bytes":31395}
+{"error":"keywatcher: pubsub receive: EOF","level":"error","msg":"","time":"2023-12-02T16:02:32Z"}
+{"address":"/var/opt/gitlab/redis/redis.socket","level":"info","msg":"redis: dialing","network":"unix","time":"2023-12-02T16:02:32Z"}
+{"content_type":"text/html; charset=utf-8","correlation_id":"01HGNM9S0B4ZHC9SCEEQWX1YDD","duration_ms":100,"host":"localhost","level":"info","method":"GET","msg":"access","proto":"HTTP/1.1","referrer":"","remote_addr":"127.0.0.1:0","remote_ip":"127.0.0.1","route":"","status":200,"system":"http","time":"2023-12-02T16:03:04Z","ttfb_ms":100,"uri":"/help","user_agent":"curl/8.4.0-DEV","written_bytes":31395}
+{"error":"keywatcher: pubsub receive: EOF","level":"error","msg":"","time":"2023-12-02T16:03:34Z"}
+{"address":"/var/opt/gitlab/redis/redis.socket","level":"info","msg":"redis: dialing","network":"unix","time":"2023-12-02T16:03:34Z"}
+{"content_type":"text/html; charset=utf-8","correlation_id":"01HGNMBKVDX3BSESW4NZ0PSRFC","duration_ms":106,"host":"localhost","level":"info","method":"GET","msg":"access","proto":"HTTP/1.1","referrer":"","remote_addr":"127.0.0.1:0","remote_ip":"127.0.0.1","route":"","status":200,"system":"http","time":"2023-12-02T16:04:04Z","ttfb_ms":105,"uri":"/help","user_agent":"curl/8.4.0-DEV","written_bytes":31395}
+{"error":"keywatcher: pubsub receive: EOF","level":"error","msg":"","time":"2023-12-02T16:04:36Z"}
+{"address":"/var/opt/gitlab/redis/redis.socket","level":"info","msg":"redis: dialing","network":"unix","time":"2023-12-02T16:04:36Z"}
+{"content_type":"text/html; charset=utf-8","correlation_id":"01HGNMDEMZ0Y8CPAAT0BRG1PXP","duration_ms":120,"host":"localhost","level":"info","method":"GET","msg":"access","proto":"HTTP/1.1","referrer":"","remote_addr":"127.0.0.1:0","remote_ip":"127.0.0.1","route":"","status":200,"system":"http","time":"2023-12-02T16:05:04Z","ttfb_ms":120,"uri":"/help","user_agent":"curl/8.4.0-DEV","written_bytes":31395}
+{"error":"keywatcher: pubsub receive: EOF","level":"error","msg":"","time":"2023-12-02T16:05:37Z"}
+{"address":"/var/opt/gitlab/redis/redis.socket","level":"info","msg":"redis: dialing","network":"unix","time":"2023-12-02T16:05:37Z"}
+{"content_type":"text/html; charset=utf-8","correlation_id":"01HGNMF9EM411637F0DHS52ADC","duration_ms":113,"host":"localhost","level":"info","method":"GET","msg":"access","proto":"HTTP/1.1","referrer":"","remote_addr":"127.0.0.1:0","remote_ip":"127.0.0.1","route":"","status":200,"system":"http","time":"2023-12-02T16:06:05Z","ttfb_ms":113,"uri":"/help","user_agent":"curl/8.4.0-DEV","written_bytes":31395}
+{"error":"keywatcher: pubsub receive: EOF","level":"error","msg":"","time":"2023-12-02T16:06:38Z"}
+{"address":"/var/opt/gitlab/redis/redis.socket","level":"info","msg":"redis: dialing","network":"unix","time":"2023-12-02T16:06:38Z"}
+{"content_type":"text/html; charset=utf-8","correlation_id":"01HGNMH488EDAYMH9H0DBT7DM2","duration_ms":111,"host":"localhost","level":"info","method":"GET","msg":"access","proto":"HTTP/1.1","referrer":"","remote_addr":"127.0.0.1:0","remote_ip":"127.0.0.1","route":"","status":200,"system":"http","time":"2023-12-02T16:07:05Z","ttfb_ms":110,"uri":"/help","user_agent":"curl/8.4.0-DEV","written_bytes":31395}
+{"error":"keywatcher: pubsub receive: EOF","level":"error","msg":"","time":"2023-12-02T16:07:39Z"}
+{"address":"/var/opt/gitlab/redis/redis.socket","level":"info","msg":"redis: dialing","network":"unix","time":"2023-12-02T16:07:39Z"}
+{"content_type":"text/html; charset=utf-8","correlation_id":"01HGNMJZ2J167HSEXZSZ1YP0VJ","duration_ms":472,"host":"localhost","level":"info","method":"GET","msg":"access","proto":"HTTP/1.1","referrer":"","remote_addr":"127.0.0.1:0","remote_ip":"127.0.0.1","route":"","status":200,"system":"http","time":"2023-12-02T16:08:05Z","ttfb_ms":472,"uri":"/help","user_agent":"curl/8.4.0-DEV","written_bytes":31395}
+{"error":"keywatcher: pubsub receive: EOF","level":"error","msg":"","time":"2023-12-02T16:08:41Z"}
+{"address":"/var/opt/gitlab/redis/redis.socket","level":"info","msg":"redis: dialing","network":"unix","time":"2023-12-02T16:08:41Z"}
+{"content_type":"text/html; charset=utf-8","correlation_id":"01HGNMMT7F0PWBWMPPWWJD85K5","duration_ms":108,"host":"localhost","level":"info","method":"GET","msg":"access","proto":"HTTP/1.1","referrer":"","remote_addr":"127.0.0.1:0","remote_ip":"127.0.0.1","route":"","status":200,"system":"http","time":"2023-12-02T16:09:06Z","ttfb_ms":107,"uri":"/help","user_agent":"curl/8.4.0-DEV","written_bytes":31395}
+{"error":"keywatcher: pubsub receive: EOF","level":"error","msg":"","time":"2023-12-02T16:09:42Z"}
+{"address":"/var/opt/gitlab/redis/redis.socket","level":"info","msg":"redis: dialing","network":"unix","time":"2023-12-02T16:09:42Z"}
+{"content_type":"text/html; charset=utf-8","correlation_id":"01HGNMPN12PM7KFD5ABK305G3T","duration_ms":106,"host":"localhost","level":"info","method":"GET","msg":"access","proto":"HTTP/1.1","referrer":"","remote_addr":"127.0.0.1:0","remote_ip":"127.0.0.1","route":"","status":200,"system":"http","time":"2023-12-02T16:10:06Z","ttfb_ms":105,"uri":"/help","user_agent":"curl/8.4.0-DEV","written_bytes":31395}
+{"error":"keywatcher: pubsub receive: EOF","level":"error","msg":"","time":"2023-12-02T16:10:44Z"}
+{"address":"/var/opt/gitlab/redis/redis.socket","level":"info","msg":"redis: dialing","network":"unix","time":"2023-12-02T16:10:44Z"}
+{"content_type":"text/html; charset=utf-8","correlation_id":"01HGNMRFV19AYJ8GEJQVVRP9F3","duration_ms":102,"host":"localhost","level":"info","method":"GET","msg":"access","proto":"HTTP/1.1","referrer":"","remote_addr":"127.0.0.1:0","remote_ip":"127.0.0.1","route":"","status":200,"system":"http","time":"2023-12-02T16:11:06Z","ttfb_ms":101,"uri":"/help","user_agent":"curl/8.4.0-DEV","written_bytes":31395}
+{"error":"keywatcher: pubsub receive: EOF","level":"error","msg":"","time":"2023-12-02T16:11:45Z"}
+{"address":"/var/opt/gitlab/redis/redis.socket","level":"info","msg":"redis: dialing","network":"unix","time":"2023-12-02T16:11:45Z"}
+{"content_type":"text/html; charset=utf-8","correlation_id":"01HGNMTAMBP1KQ1R5Q33A7W403","duration_ms":103,"host":"localhost","level":"info","method":"GET","msg":"access","proto":"HTTP/1.1","referrer":"","remote_addr":"127.0.0.1:0","remote_ip":"127.0.0.1","route":"","status":200,"system":"http","time":"2023-12-02T16:12:06Z","ttfb_ms":103,"uri":"/help","user_agent":"curl/8.4.0-DEV","written_bytes":31395}
+{"error":"keywatcher: pubsub receive: EOF","level":"error","msg":"","time":"2023-12-02T16:12:46Z"}
+{"address":"/var/opt/gitlab/redis/redis.socket","level":"info","msg":"redis: dialing","network":"unix","time":"2023-12-02T16:12:46Z"}
+{"content_type":"text/html; charset=utf-8","correlation_id":"01HGNMW5DQ9N3BBE3TTADDZB5S","duration_ms":107,"host":"localhost","level":"info","method":"GET","msg":"access","proto":"HTTP/1.1","referrer":"","remote_addr":"127.0.0.1:0","remote_ip":"127.0.0.1","route":"","status":200,"system":"http","time":"2023-12-02T16:13:06Z","ttfb_ms":107,"uri":"/help","user_agent":"curl/8.4.0-DEV","written_bytes":31395}
+{"error":"keywatcher: pubsub receive: EOF","level":"error","msg":"","time":"2023-12-02T16:13:47Z"}
+{"address":"/var/opt/gitlab/redis/redis.socket","level":"info","msg":"redis: dialing","network":"unix","time":"2023-12-02T16:13:47Z"}
+{"content_type":"text/html; charset=utf-8","correlation_id":"01HGNMY07DSCHJBYA641R0ZMBT","duration_ms":129,"host":"localhost","level":"info","method":"GET","msg":"access","proto":"HTTP/1.1","referrer":"","remote_addr":"127.0.0.1:0","remote_ip":"127.0.0.1","route":"","status":200,"system":"http","time":"2023-12-02T16:14:07Z","ttfb_ms":128,"uri":"/help","user_agent":"curl/8.4.0-DEV","written_bytes":31395}
+{"error":"keywatcher: pubsub receive: EOF","level":"error","msg":"","time":"2023-12-02T16:14:48Z"}
+{"address":"/var/opt/gitlab/redis/redis.socket","level":"info","msg":"redis: dialing","network":"unix","time":"2023-12-02T16:14:48Z"}
+{"content_type":"text/html; charset=utf-8","correlation_id":"01HGNMZV2JR0WZ0788NGY625XQ","duration_ms":119,"host":"localhost","level":"info","method":"GET","msg":"access","proto":"HTTP/1.1","referrer":"","remote_addr":"127.0.0.1:0","remote_ip":"127.0.0.1","route":"","status":200,"system":"http","time":"2023-12-02T16:15:07Z","ttfb_ms":119,"uri":"/help","user_agent":"curl/8.4.0-DEV","written_bytes":31395}
+{"error":"keywatcher: pubsub receive: EOF","level":"error","msg":"","time":"2023-12-02T16:15:49Z"}
+{"address":"/var/opt/gitlab/redis/redis.socket","level":"info","msg":"redis: dialing","network":"unix","time":"2023-12-02T16:15:49Z"}
+{"content_type":"text/html; charset=utf-8","correlation_id":"01HGNN1NWHHY6ZFGPERMMXKKW6","duration_ms":121,"host":"localhost","level":"info","method":"GET","msg":"access","proto":"HTTP/1.1","referrer":"","remote_addr":"127.0.0.1:0","remote_ip":"127.0.0.1","route":"","status":200,"system":"http","time":"2023-12-02T16:16:07Z","ttfb_ms":120,"uri":"/help","user_agent":"curl/8.4.0-DEV","written_bytes":31395}
+{"error":"keywatcher: pubsub receive: EOF","level":"error","msg":"","time":"2023-12-02T16:16:50Z"}
+{"address":"/var/opt/gitlab/redis/redis.socket","level":"info","msg":"redis: dialing","network":"unix","time":"2023-12-02T16:16:50Z"}
+{"content_type":"text/html; charset=utf-8","correlation_id":"01HGNN3GPR4B2XQYQ4PQJCT9N9","duration_ms":106,"host":"localhost","level":"info","method":"GET","msg":"access","proto":"HTTP/1.1","referrer":"","remote_addr":"127.0.0.1:0","remote_ip":"127.0.0.1","route":"","status":200,"system":"http","time":"2023-12-02T16:17:07Z","ttfb_ms":105,"uri":"/help","user_agent":"curl/8.4.0-DEV","written_bytes":31395}
+{"error":"keywatcher: pubsub receive: EOF","level":"error","msg":"","time":"2023-12-02T16:17:51Z"}
+{"address":"/var/opt/gitlab/redis/redis.socket","level":"info","msg":"redis: dialing","network":"unix","time":"2023-12-02T16:17:51Z"}
+{"content_type":"text/html; charset=utf-8","correlation_id":"01HGNN5BG9W7HVPDPHY3HSW3W5","duration_ms":106,"host":"localhost","level":"info","method":"GET","msg":"access","proto":"HTTP/1.1","referrer":"","remote_addr":"127.0.0.1:0","remote_ip":"127.0.0.1","route":"","status":200,"system":"http","time":"2023-12-02T16:18:08Z","ttfb_ms":106,"uri":"/help","user_agent":"curl/8.4.0-DEV","written_bytes":31395}
+{"error":"keywatcher: pubsub receive: EOF","level":"error","msg":"","time":"2023-12-02T16:18:52Z"}
+{"address":"/var/opt/gitlab/redis/redis.socket","level":"info","msg":"redis: dialing","network":"unix","time":"2023-12-02T16:18:52Z"}

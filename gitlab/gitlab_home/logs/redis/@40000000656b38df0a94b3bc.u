@@ -1,0 +1,65 @@
+2023-12-02_13:15:17.07246 515:C 02 Dec 2023 13:15:17.072 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+2023-12-02_13:15:17.07255 515:C 02 Dec 2023 13:15:17.072 # Redis version=7.0.14, bits=64, commit=c1d92a69, modified=1, pid=515, just started
+2023-12-02_13:15:17.07256 515:C 02 Dec 2023 13:15:17.072 # Configuration loaded
+2023-12-02_13:15:17.07292 515:M 02 Dec 2023 13:15:17.072 * monotonic clock: POSIX clock_gettime
+2023-12-02_13:15:17.07352                 _._                                                  
+2023-12-02_13:15:17.07353            _.-``__ ''-._                                             
+2023-12-02_13:15:17.07353       _.-``    `.  `_.  ''-._           Redis 7.0.14 (c1d92a69/1) 64 bit
+2023-12-02_13:15:17.07354   .-`` .-```.  ```\/    _.,_ ''-._                                  
+2023-12-02_13:15:17.07355  (    '      ,       .-`  | `,    )     Running in standalone mode
+2023-12-02_13:15:17.07355  |`-._`-...-` __...-.``-._|'` _.-'|     Port: 0
+2023-12-02_13:15:17.07355  |    `-._   `._    /     _.-'    |     PID: 515
+2023-12-02_13:15:17.07355   `-._    `-._  `-./  _.-'    _.-'                                   
+2023-12-02_13:15:17.07355  |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+2023-12-02_13:15:17.07356  |    `-._`-._        _.-'_.-'    |           https://redis.io       
+2023-12-02_13:15:17.07356   `-._    `-._`-.__.-'_.-'    _.-'                                   
+2023-12-02_13:15:17.07356  |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+2023-12-02_13:15:17.07356  |    `-._`-._        _.-'_.-'    |                                  
+2023-12-02_13:15:17.07356   `-._    `-._`-.__.-'_.-'    _.-'                                   
+2023-12-02_13:15:17.07357       `-._    `-.__.-'    _.-'                                       
+2023-12-02_13:15:17.07357           `-._        _.-'                                           
+2023-12-02_13:15:17.07358               `-.__.-'                                               
+2023-12-02_13:15:17.07358 
+2023-12-02_13:15:17.07365 515:M 02 Dec 2023 13:15:17.073 # Server initialized
+2023-12-02_13:15:17.07369 515:M 02 Dec 2023 13:15:17.073 # WARNING Memory overcommit must be enabled! Without it, a background save or replication may fail under low memory condition. Being disabled, it can can also cause failures without low memory condition, see https://github.com/jemalloc/jemalloc/issues/1328. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+2023-12-02_13:15:17.07407 515:M 02 Dec 2023 13:15:17.074 * The server is now ready to accept connections at /var/opt/gitlab/redis/redis.socket
+2023-12-02_13:20:18.00337 515:M 02 Dec 2023 13:20:18.003 * 10 changes in 300 seconds. Saving...
+2023-12-02_13:20:18.05197 515:M 02 Dec 2023 13:20:18.003 * Background saving started by pid 1108
+2023-12-02_13:20:18.08046 1108:C 02 Dec 2023 13:20:18.079 * DB saved on disk
+2023-12-02_13:20:18.08048 1108:C 02 Dec 2023 13:20:18.080 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+2023-12-02_13:20:18.11136 515:M 02 Dec 2023 13:20:18.111 * Background saving terminated with success
+2023-12-02_13:25:19.03166 515:M 02 Dec 2023 13:25:19.031 * 10 changes in 300 seconds. Saving...
+2023-12-02_13:25:19.03224 515:M 02 Dec 2023 13:25:19.032 * Background saving started by pid 1376
+2023-12-02_13:25:19.05877 1376:C 02 Dec 2023 13:25:19.058 * DB saved on disk
+2023-12-02_13:25:19.05939 1376:C 02 Dec 2023 13:25:19.059 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+2023-12-02_13:25:19.13323 515:M 02 Dec 2023 13:25:19.133 * Background saving terminated with success
+2023-12-02_13:30:20.08053 515:M 02 Dec 2023 13:30:20.080 * 10 changes in 300 seconds. Saving...
+2023-12-02_13:30:20.08056 515:M 02 Dec 2023 13:30:20.080 * Background saving started by pid 1508
+2023-12-02_13:30:20.09385 1508:C 02 Dec 2023 13:30:20.093 * DB saved on disk
+2023-12-02_13:30:20.09462 1508:C 02 Dec 2023 13:30:20.094 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+2023-12-02_13:30:20.18545 515:M 02 Dec 2023 13:30:20.180 * Background saving terminated with success
+2023-12-02_13:35:21.01511 515:M 02 Dec 2023 13:35:21.015 * 10 changes in 300 seconds. Saving...
+2023-12-02_13:35:21.01570 515:M 02 Dec 2023 13:35:21.015 * Background saving started by pid 1653
+2023-12-02_13:35:21.02814 1653:C 02 Dec 2023 13:35:21.028 * DB saved on disk
+2023-12-02_13:35:21.02868 1653:C 02 Dec 2023 13:35:21.028 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+2023-12-02_13:35:21.11592 515:M 02 Dec 2023 13:35:21.115 * Background saving terminated with success
+2023-12-02_13:40:22.04193 515:M 02 Dec 2023 13:40:22.041 * 10 changes in 300 seconds. Saving...
+2023-12-02_13:40:22.04248 515:M 02 Dec 2023 13:40:22.042 * Background saving started by pid 1782
+2023-12-02_13:40:22.05454 1782:C 02 Dec 2023 13:40:22.054 * DB saved on disk
+2023-12-02_13:40:22.05514 1782:C 02 Dec 2023 13:40:22.055 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+2023-12-02_13:40:22.14290 515:M 02 Dec 2023 13:40:22.142 * Background saving terminated with success
+2023-12-02_13:45:23.01814 515:M 02 Dec 2023 13:45:23.017 * 10 changes in 300 seconds. Saving...
+2023-12-02_13:45:23.01816 515:M 02 Dec 2023 13:45:23.018 * Background saving started by pid 1914
+2023-12-02_13:45:23.03637 1914:C 02 Dec 2023 13:45:23.036 * DB saved on disk
+2023-12-02_13:45:23.03799 1914:C 02 Dec 2023 13:45:23.037 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+2023-12-02_13:45:23.11925 515:M 02 Dec 2023 13:45:23.119 * Background saving terminated with success
+2023-12-02_13:50:24.06192 515:M 02 Dec 2023 13:50:24.061 * 10 changes in 300 seconds. Saving...
+2023-12-02_13:50:24.06195 515:M 02 Dec 2023 13:50:24.061 * Background saving started by pid 2056
+2023-12-02_13:50:24.08553 2056:C 02 Dec 2023 13:50:24.084 * DB saved on disk
+2023-12-02_13:50:24.08555 2056:C 02 Dec 2023 13:50:24.085 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+2023-12-02_13:50:24.16249 515:M 02 Dec 2023 13:50:24.162 * Background saving terminated with success
+2023-12-02_13:55:25.06265 515:M 02 Dec 2023 13:55:25.062 * 10 changes in 300 seconds. Saving...
+2023-12-02_13:55:25.06317 515:M 02 Dec 2023 13:55:25.063 * Background saving started by pid 2201
+2023-12-02_13:55:25.08324 2201:C 02 Dec 2023 13:55:25.083 * DB saved on disk
+2023-12-02_13:55:25.08392 2201:C 02 Dec 2023 13:55:25.083 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+2023-12-02_13:55:25.16357 515:M 02 Dec 2023 13:55:25.163 * Background saving terminated with success

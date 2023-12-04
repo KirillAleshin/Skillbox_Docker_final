@@ -1,0 +1,12 @@
+2023-12-02_14:18:29.82398 ts=2023-12-02T14:18:28.250Z caller=main.go:86 level=warn msg="Error loading config" err="Error opening config file \"postgres_exporter.yml\": open postgres_exporter.yml: no such file or directory"
+2023-12-02_14:18:29.82416 ts=2023-12-02T14:18:28.252Z caller=proc.go:250 msg="Excluded databases" databases=[]
+2023-12-02_14:18:29.82443 ts=2023-12-02T14:18:28.252Z caller=main.go:99 level=warn msg="The extended queries.yaml config is DEPRECATED" file=/var/opt/gitlab/postgres-exporter/queries.yaml
+2023-12-02_14:18:29.82443 ts=2023-12-02T14:18:28.272Z caller=tls_config.go:274 level=info msg="Listening on" address=127.0.0.1:9187
+2023-12-02_14:18:29.82443 ts=2023-12-02T14:18:28.272Z caller=tls_config.go:277 level=info msg="TLS is disabled." http2=false address=127.0.0.1:9187
+2023-12-02_14:18:39.68938 ts=2023-12-02T14:18:39.689Z caller=main.go:86 level=warn msg="Error loading config" err="Error opening config file \"postgres_exporter.yml\": open postgres_exporter.yml: no such file or directory"
+2023-12-02_14:18:39.68947 ts=2023-12-02T14:18:39.689Z caller=proc.go:250 msg="Excluded databases" databases=[]
+2023-12-02_14:18:39.68947 ts=2023-12-02T14:18:39.689Z caller=main.go:99 level=warn msg="The extended queries.yaml config is DEPRECATED" file=/var/opt/gitlab/postgres-exporter/queries.yaml
+2023-12-02_14:18:39.69090 ts=2023-12-02T14:18:39.690Z caller=tls_config.go:274 level=info msg="Listening on" address=127.0.0.1:9187
+2023-12-02_14:18:39.69091 ts=2023-12-02T14:18:39.690Z caller=tls_config.go:277 level=info msg="TLS is disabled." http2=false address=127.0.0.1:9187
+2023-12-02_14:18:57.68469 ts=2023-12-02T14:18:57.684Z caller=server.go:74 level=info msg="Established new database connection" fingerprint=/var/opt/gitlab/postgresql:5432
+2023-12-02_14:18:57.70229 ts=2023-12-02T14:18:57.702Z caller=postgres_exporter.go:613 level=info msg="Semantic version changed" server=/var/opt/gitlab/postgresql:5432 from=0.0.0 to=13.12.0

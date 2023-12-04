@@ -1,0 +1,3 @@
+# Logfile created on 2023-12-02 13:16:13 +0000 by logger.rb/v1.4.3
+{"severity":"WARN","time":"2023-12-02T14:21:21.006Z","message":"Job arguments to ExternalServiceReactiveCachingWorker do not serialize to JSON safely. This will raise an error in\nSidekiq 7.0. See https://github.com/mperham/sidekiq/wiki/Best-Practices or raise an error today\nby calling `Sidekiq.strict_args!` during Sidekiq initialization.\n"}
+{"severity":"WARN","time":"2023-12-02T14:30:27.622Z","message":"Job arguments to ExternalServiceReactiveCachingWorker do not serialize to JSON safely. This will raise an error in\nSidekiq 7.0. See https://github.com/mperham/sidekiq/wiki/Best-Practices or raise an error today\nby calling `Sidekiq.strict_args!` during Sidekiq initialization.\n"}

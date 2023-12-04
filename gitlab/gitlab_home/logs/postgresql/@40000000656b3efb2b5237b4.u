@@ -1,0 +1,32 @@
+2023-12-02_14:15:35.33209 LOG:  starting PostgreSQL 13.12 on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0, 64-bit
+2023-12-02_14:15:35.33977 LOG:  listening on Unix socket "/var/opt/gitlab/postgresql/.s.PGSQL.5432"
+2023-12-02_14:15:35.35920 LOG:  database system was shut down at 2023-12-02 14:13:18 GMT
+2023-12-02_14:15:35.43664 LOG:  database system is ready to accept connections
+2023-12-02_14:15:38.94021 LOG:  no match in usermap "gitlab" for user "gitlab" authenticated as "root"
+2023-12-02_14:15:38.94028 FATAL:  Peer authentication failed for user "gitlab"
+2023-12-02_14:15:38.94028 DETAIL:  Connection matched pg_hba.conf line 70: "local   all         all                               peer map=gitlab"
+2023-12-02_14:15:40.52957 LOG:  no match in usermap "gitlab" for user "gitlab" authenticated as "root"
+2023-12-02_14:15:40.52959 FATAL:  Peer authentication failed for user "gitlab"
+2023-12-02_14:15:40.52959 DETAIL:  Connection matched pg_hba.conf line 70: "local   all         all                               peer map=gitlab"
+2023-12-02_14:15:40.62138 LOG:  no match in usermap "gitlab" for user "gitlab" authenticated as "root"
+2023-12-02_14:15:40.62140 FATAL:  Peer authentication failed for user "gitlab"
+2023-12-02_14:15:40.62140 DETAIL:  Connection matched pg_hba.conf line 70: "local   all         all                               peer map=gitlab"
+2023-12-02_14:15:42.01785 LOG:  no match in usermap "gitlab" for user "gitlab" authenticated as "root"
+2023-12-02_14:15:42.01787 FATAL:  Peer authentication failed for user "gitlab"
+2023-12-02_14:15:42.01787 DETAIL:  Connection matched pg_hba.conf line 70: "local   all         all                               peer map=gitlab"
+2023-12-02_14:15:42.25548 LOG:  no match in usermap "gitlab" for user "gitlab" authenticated as "root"
+2023-12-02_14:15:42.25550 FATAL:  Peer authentication failed for user "gitlab"
+2023-12-02_14:15:42.25550 DETAIL:  Connection matched pg_hba.conf line 70: "local   all         all                               peer map=gitlab"
+2023-12-02_14:16:35.00032 ERROR:  relation "feature_gates" does not exist at character 491
+2023-12-02_14:16:35.00040 STATEMENT:  SELECT a.attname, format_type(a.atttypid, a.atttypmod),
+2023-12-02_14:16:35.00040 	       pg_get_expr(d.adbin, d.adrelid), a.attnotnull, a.atttypid, a.atttypmod,
+2023-12-02_14:16:35.00040 	       c.collname, col_description(a.attrelid, a.attnum) AS comment,
+2023-12-02_14:16:35.00040 	       attgenerated as attgenerated
+2023-12-02_14:16:35.00040 	  FROM pg_attribute a
+2023-12-02_14:16:35.00040 	  LEFT JOIN pg_attrdef d ON a.attrelid = d.adrelid AND a.attnum = d.adnum
+2023-12-02_14:16:35.00041 	  LEFT JOIN pg_type t ON a.atttypid = t.oid
+2023-12-02_14:16:35.00041 	  LEFT JOIN pg_collation c ON a.attcollation = c.oid AND a.attcollation <> t.typcollation
+2023-12-02_14:16:35.00041 	 WHERE a.attrelid = '"feature_gates"'::regclass
+2023-12-02_14:16:35.00041 	   AND a.attnum > 0 AND NOT a.attisdropped
+2023-12-02_14:16:35.00041 	 ORDER BY a.attnum
+2023-12-02_14:16:35.00041 	
